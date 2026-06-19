@@ -18,6 +18,7 @@ class Cursor < Formula
     system "cmake", "-S", ".", "-B", "build", "-DCURSOR_BUILD_TESTS:BOOL=OFF", *std_cmake_args
     system "cmake", "--build", "build"
     bin.install "build/bin/cursor-agent"
+    bin.install_symlink "cursor-agent" => "cursor"
   end
 
   def post_install
@@ -47,7 +48,7 @@ class Cursor < Formula
 
   def caveats
     <<~EOS
-      Run "cursor-agent" to start.
+      Run "cursor" or "cursor-agent" to start.
 
       Configuration file is located at:
         #{etc}/cursor-agent/.env
