@@ -7,7 +7,7 @@ class Cursor < Formula
 
   bottle do
     root_url "https://github.com/bniladridas/cursor/releases/download/v0.1.15"
-    sha256 arm64_sequoia: "def0dc5a0326e9a1583547607a43c4676ebbe65ef37fc3629fa1e333f27443ed"
+    sha256 arm64_sequoia: "2954e547c3275a4b8617f9522a8d525ac2dc1d8c6db009cd1a8f9694da8c5143"
   end
 
   depends_on "cmake" => :build
