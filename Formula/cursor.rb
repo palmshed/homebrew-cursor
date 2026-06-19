@@ -47,6 +47,8 @@ class Cursor < Formula
 
   def caveats
     <<~EOS
+      Run "cursor-agent" to start.
+
       Configuration file is located at:
         #{etc}/cursor-agent/.env
 
