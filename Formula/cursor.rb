@@ -1,13 +1,13 @@
 class Cursor < Formula
   desc "Professional AI agent with command execution and file operations"
   homepage "https://github.com/bniladridas/cursor"
-  url "https://github.com/bniladridas/cursor/archive/refs/tags/v0.1.27.tar.gz"
-  sha256 "8ce009a170f84dc47ecd4b1977ffc86965a65ff789f1914973929918b7602435"
+  url "https://github.com/bniladridas/cursor/archive/refs/tags/v0.1.28.tar.gz"
+  sha256 "ec8aa6f4dfeeb5f6a941abfb6d46dd532f939e1688b187537e77abc5c7189415"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/bniladridas/cursor/releases/download/v0.1.27"
-    sha256 arm64_sequoia: "cb2973fe30faf3625e5eaeb97167797d3ad70208893079cbb89ff9c69386bc83"
+    root_url "https://github.com/bniladridas/cursor/releases/download/v0.1.28"
+    sha256 arm64_sequoia: "47f5e3f69c8378a2669268f8bcf20a31cde032c05bb2cc6f714551d4c4ff0434"
   end
 
   depends_on "cmake" => :build
